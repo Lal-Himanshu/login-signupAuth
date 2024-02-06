@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>Sign up</h1>
+      <form action="">
+        <div class="field">
+          <input
+            type="text"
+            id="myName"
+            class="input-box"
+            placeholder="Name" />
+        </div>
+        <div class="field">
+          <input
+            type="email"
+            id="mySignId"
+            class="input-box"
+            placeholder="Your email"
+            required />
+        </div>
+        <div class="field">
+          <input
+            type="password"
+            id="mySignPass"
+            class="input-box"
+            placeholder="Enter your password"
+            required />
+          <i onclick="hidebtn1()" class="bx bx-hide hideicon"></i>
+        </div>
+        <div class="field">
+          <input
+            type="password"
+            class="input-box"
+            id="confirmPass"
+            placeholder="Confirm your password"
+            required />
+          <i onclick="hidebtn2()" class="bx bx-hide hideicon"></i>
+        </div>
+            <label class="addressInput" for="address">Address:</label>
+    <div id="addressFields">
+        <input type="text" name="addressLine" placeholder="Address Line 1">
+    </div>
+    <div>
+      <button type="button" id="addAddress" onclick="addFeild()" >Add More</button>
+    </div>
+        <div class="secuQues">
+          <label for="securityQues">Security Question:</label>
+          <select name="securityQues" id="securityQues">
+            <option value="select">select</option>
+            <option value="Your fist pet name">Your fist pet name</option>
+            <option value="Your birth place">Your birth place</option>
+            <option value="Your crush name">Your crush name</option>
+          </select>
+          </div>
+          <div class="secuAns">
+              <label for="securityAnswer">Security Answer:</label>
+              <input type="text" id="securityAnswer">
+          </div>
+        
+        <button type="button" class="btn" id="signUpBtn" onclick="signup()">
+          Sign up
+        </button>
+        <hr />
+        <p>Already have an account? <a href="login.html"> Login</a></p>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

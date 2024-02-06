@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body onload="getCookieData()">
+  <div class="form">
+    <h1>Login</h1>
+    <form action="">
+      <div class="field">
+        <input type="email" id="myId" class="input-box" placeholder="Enter your email" required>
+
+      </div>
+      <div class="field">
+
+        <input type="password" id="myPass" class="input-box" placeholder="Enter your password" required>
+        <i onclick="hidebtn0()" class='bx bx-hide hideicon' ></i>
+      </div>
+              <p>
+          <span><input type="checkbox" id="remMe" onclick="setCookie()" /></span
+          ><label for="remMe">Remember me</label>
+        </p>
+        <p><a href="forgotpass.html">Forgot password?</a></p>
+      <button type="button" onclick="login()" class="btn"> Login</button>
+      <hr>
+      <p>Don't have an account? <a href="signup.html"> Sign up</a></p>
+    </form>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

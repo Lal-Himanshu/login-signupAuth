@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: antiquewhite;
+}
+.form {
+  width: 300px;
+  background: #fff;
+  padding: 20px;
+  margin: 1% auto 0;
+  text-align: center;
+  border: 2px solid rgb(148, 141, 141);
+}
+.input-box {
+  margin: 3%;
+  padding: 5%;
+  border-radius: 7px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid black;
+}
+.form h1 {
+  color: rgb(36, 43, 144);
+  margin-bottom: 30px;
+}
+.btn {
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 9% 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: blue;
+}
+.hideicon {
+  position: absolute;
+  font-size: 18px;
+  color: #8b8b8b;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 5px;
+}
+form .field {
+  position: relative;
+}
+.secuQues {
+  margin: 5% 0% 4% 0%;
+}
+.secuAns {
+  margin: 1% 0% 4% 0%;
+}
+.secuEmail{
+  margin: 1% 0% 4% 0%;
+}
+.secuEmail label {
+  justify-content: left;
+  display: flex;
+  float: left;
+}
+.secuEmail input{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid black;
+}
+.secuAns label {
+  justify-content: left;
+  display: flex;
+  float: left;
+}
+
+.secuAns input{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid black;
+}
+.secuQues label {
+  justify-content: left;
+  display: flex;
+  float: left;
+}
+select {
+  padding: 7px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+select:after {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+select option {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+.container1{
+  width: 100vw;
+  text-align: center;
+}
+.hidden{
+  visibility:hidden;
+}
+.userData{
+  width: 300px;
+  border: 2px solid red;
+  height: 300px;
+}
+.addressInput{
+    justify-content: left;
+  display: flex;
+  float: left;
+  margin-top: 15px;
+}
+#addressFields input{
+    border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid black;
+  margin-bottom: 2%;
+  display: flex;
+  float: right;
+  margin-top: 15px;
+}
+#addAddress{
+  margin-bottom: 2%;
+  display: flex;
+  float: right;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>Forgot Password</h1>
+      <form action="">
+                  <div class="secuEmail">
+              <label for="securityEmail">Email:</label>
+              <input type="text" id="securityEmail">
+          </div>
+        <div class="secuQues">
+          <label for="securityQues">Security Question:</label>
+          <select name="securityQues" id="securityQues">
+            <option value="select">select</option>
+            <option value="Your fist pet name">Your fist pet name</option>
+            <option value="Your birth place">Your birth place</option>
+            <option value="Your crush name">Your crush name</option>
+          </select>
+        </div>
+        <div class="secuAns">
+          <label for="securityAnswer">Security Answer:</label>
+          <input type="text" id="securityAnswer" />
+        </div>
+        <button type="button" onclick="getPassword()" class="btn">
+          Get Password
+        </button>
+        <hr />
+        <p>Retrieved password? <a href="login.html"> Login again</a></p>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
