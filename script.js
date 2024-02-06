@@ -80,7 +80,7 @@ function signup() {
   alert("User added successfully🎉🎉");
   localStorage.setItem("UserData", usernameInput.value);
         sessionStorage.setItem("redirectedFromPage1", "true");
-  window.location.href = "home.html";
+  window.location.href = "index.html";
 }
 
 function login() {
@@ -97,7 +97,7 @@ function login() {
     if (storedPass == passwordInput.value) {
       alert("Login Successful🎉🎉");
       sessionStorage.setItem("redirectedFromPage1", "true");
-      window.location.href = "home.html";
+      window.location.href = "index.html";
       localStorage.setItem("UserData", usernameInput.value);
     } else {
       alert("Wrong Password, Please try again⚠️⚠️");
